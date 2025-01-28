@@ -171,6 +171,7 @@ export function mainMenu(textContainerId) {
             imageLinkWrapper.style.margin = '5px 0';
             imageLinkWrapper.style.border = '2px solid white';
             imageLinkWrapper.style.padding = '5px';
+            imageLinkWrapper.style.borderRadius = '10px';
 
             // Add image
             const img = document.createElement('img');
